@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Talent Assessments" thread-count="5" parallel="tests">
+    <test name="hclTest - NumberValidation" parallel="methods">
+        <classes>
+            <class name="hclTests"></class>
+        </classes>
+    </test>
+    <test name="hclTets - hcl WebSite">
+        <classes>
+            <class name="hclWebSiteTests"></class>
+        </classes>
+    </test>
+    <test name="hclTets - hcl FootBall dat">
+        <classes>
+            <class name="hclFootballTests"></class>
+        </classes>
+    </test>
+</suite>
